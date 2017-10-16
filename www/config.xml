@@ -34,15 +34,14 @@
 	<preference name="orientation" value="device" /> 
 	
 	<plugin name="cordova-plugin-splashscreen"        source="npm" >
-		<!--<preference name="SplashScreen" value="res/screen/ios" />  
-		<preference name="SplashScreen" value="screen"/>-->
+		<!--<preference name="SplashScreen" value="res/screen/ios" />  -->
+		<preference name="SplashScreen" value="splash"/>
 		<preference name="SplashScreenDelay" value="7000" />  
 		<preference name="AutoHideSplashScreen" value="true" />   
 		<preference name="SplashMaintainAspectRatio" value="true" />
 		<preference name="SplashShowOnlyFirstTime" value="false" />
 	</plugin>
-	
-	    
+		    
 	<!-- Define app icon and splashscreen for each platform. -->
 	<platform name="android">
 		<icon   src="res/icon/android/ldpi.png"               density="ldpi" />
