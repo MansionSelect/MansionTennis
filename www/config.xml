@@ -85,16 +85,21 @@
 	</platform>
 
 	<access origin="*" />
+	<!--<allow-navigation href="*" />
+	<allow-navigation href="http://*/*" />
+	<allow-navigation href="https://*/*" />
+	<allow-navigation href="tel:*" />
+	<allow-navigation href="sms:*" />
+	<allow-navigation href="mailto:*" />
+	<allow-navigation href="geo:*" />
 
-	<allow-intent href="http://*/*" />
-	<allow-intent href="https://*/*" />
 	<platform name="android">
 		<allow-intent href="market:*" />
 	</platform>
 	<platform name="ios">
 		<allow-intent href="itms:*" />
 		<allow-intent href="itms-apps:*" />
-	</platform>
+	</platform>-->
 
 </widget>
 
