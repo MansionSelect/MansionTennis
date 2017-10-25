@@ -7,10 +7,6 @@
         id        = "com.phonegap.mansiontennis"
         version   = "1.0.0">
 
-<!--<xhtml:script xmlns:xhtml="http://www.w3.org/1999/xhtml"
-		src="hideaddressbar.js"
-		type="application/javascript"/> -->
-
 	<name>Mansion Tennis</name>
 
 	<description>
