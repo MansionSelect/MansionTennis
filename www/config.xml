@@ -25,6 +25,11 @@
 	<plugin name="cordova-plugin-inappbrowser"        source="npm" />
 	<plugin name="cordova-plugin-whitelist"           source="npm" />
 	<plugin name="cordova-plugin-camera" />
+	<plugin name="cordova-plugin-camera"/>
+	<plugin name="cordova-plugin-media-capture"/>
+	<plugin name="cordova-plugin-media"/>
+	<plugin name="cordova-plugin-file"/>
+	<plugin name="cordova-plugin-device"/>
 	
 	<!-- Customize your app and platform with the preference element. -->
 	<preference name="permissions" value="none"/>
