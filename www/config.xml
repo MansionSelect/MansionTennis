@@ -18,7 +18,7 @@
 	</author>
 
 	<!-- Define the main entry-point to the application -->
-	<content src="https://mansiontennis.com/index.html" />
+	<content src="index.html" />
 
 	<!-- Plugins -->
 	<!-- Core plugins -->
@@ -35,7 +35,7 @@
 	
 	<plugin name="cordova-plugin-splashscreen"        source="npm" >
 		<preference name="SplashScreen" value="splash"/>
-		<preference name="SplashScreenDelay" value="3000" />  
+		<preference name="SplashScreenDelay" value="7000" />  
 		<preference name="AutoHideSplashScreen" value="true" />   
 		<preference name="SplashMaintainAspectRatio" value="true" />
 		<preference name="SplashShowOnlyFirstTime" value="false" />
