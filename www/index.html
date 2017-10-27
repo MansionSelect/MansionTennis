@@ -1,7 +1,7 @@
 <html>
 <head>
 	<script>	
-		alert('document loaded');
+		/*alert('document loaded');
 		// Grab elements, create settings, etc.
 		var canvas = document.getElementById('canvas');
 		var context = canvas.getContext('2d');
@@ -19,7 +19,7 @@
 			});
 		}
 
-		/* Legacy code below! */
+		/* Legacy code below! * /
 		else if(navigator.getUserMedia) { // Standard
 			navigator.getUserMedia(mediaConfig, function(stream) {
 				video.src = stream;
@@ -40,13 +40,15 @@
 		// Trigger photo take
 		document.getElementById('snap').addEventListener('click', function() {
 			context.drawImage(video, 0, 0, 640, 480);
-		});
+		});*/
 	</script>
 </head>
 <body>
-	<video id="video" width="640" height="480" autoplay></video>
+	<input type="file" accept="image/*;capture=camera">
+
+	<!--<video id="video" width="640" height="480" autoplay></video>
 	
 	<button id="snap">Snap Photo</button>
-	<canvas id="canvas" width="640" height="480"></canvas>
+	<canvas id="canvas" width="640" height="480"></canvas>-->
 </body>
 </html>
