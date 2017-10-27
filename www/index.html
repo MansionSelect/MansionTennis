@@ -44,7 +44,15 @@
 	</script>
 </head>
 <body>
-	<input type="file" accept="image/*;capture=camera">
+	<input type="file" accept="image/*" capture="camcorder">
+	
+	<device type="media" onchange="update(this.data)"></device>
+	<video autoplay></video>
+	<script>
+	  function update(stream) {
+		document.querySelector('video').src = stream.url;
+	  }
+	</script>
 
 	<!--<video id="video" width="640" height="480" autoplay></video>
 	
