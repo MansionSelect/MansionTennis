@@ -29,7 +29,7 @@
 	
 	<script>
 		// Put event listeners into place
-		window.addEventListener("DOMContentLoaded", function() {
+		$( document ).ready(function() {
 			// Grab elements, create settings, etc.
             var canvas = document.getElementById('canvas');
             var context = canvas.getContext('2d');
@@ -69,7 +69,7 @@
 			document.getElementById('snap').addEventListener('click', function() {
 				context.drawImage(video, 0, 0, 640, 480);
 			});
-		}, false);
+		});
 
 	</script>
 </head>
