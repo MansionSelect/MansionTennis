@@ -18,7 +18,7 @@
 	</author>
 
 	<!-- Define the main entry-point to the application -->
-	<content src="index.html" />
+	<content src="https://mansionconnect.com/mansionconnect_dev/pub/job/test_suriya.php" />
 
 	<!-- Plugins -->
 	<!-- Core plugins -->
