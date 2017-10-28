@@ -1,7 +1,7 @@
 <html>
 <head>
 	<script>	
-		alert('document loaded');
+		/*alert('document loaded');
 		// Grab elements, create settings, etc.
 		var canvas = document.getElementById('canvas');
 		var context = canvas.getContext('2d');
@@ -19,7 +19,7 @@
 			});
 		}
 
-		/* Legacy code below! */
+		/* Legacy code below! * /
 		else if(navigator.getUserMedia) { // Standard
 			navigator.getUserMedia(mediaConfig, function(stream) {
 				video.src = stream;
@@ -40,11 +40,17 @@
 		// Trigger photo take
 		document.getElementById('snap').addEventListener('click', function() {
 			context.drawImage(video, 0, 0, 640, 480);
-		});
+		});*/
 	</script>
 </head>
 <body>
 	<form enctype="multipart/form-data" method="post" action="">
+	<h2>Capture Image</h2>
+	  <input type="file" accept="image/*" capture="camera" />
+	  
+	  <input type="submit" value="Send" name="fileUpload" />
+	</form>
+	<!--<form enctype="multipart/form-data" method="post" action="">
 	  <h2>Regular file upload</h2>
 	  <input type="file"></input>
 
@@ -60,17 +66,17 @@
 	  <input type="submit" value="Send" name="fileUpload" />
 	</form>
 	
-	<!--<device type="media" onchange="update(this.data)"></device>
+	<device type="media" onchange="update(this.data)"></device>
 	<video autoplay></video>
 	<script>
 	  function update(stream) {
 		document.querySelector('video').src = stream.url;
 	  }
-	</script>-->
+	</script>
 
 	<video id="video" width="640" height="480" autoplay></video>
 	
 	<button id="snap">Snap Photo</button>
-	<canvas id="canvas" width="640" height="480"></canvas>
+	<canvas id="canvas" width="640" height="480"></canvas>-->
 </body>
 </html>
